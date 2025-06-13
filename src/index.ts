@@ -1,4 +1,4 @@
-import { lerp } from './utils';
+import { lerp, clamp } from './utils';
 
 function main() {
   let result = lerp(1, 10, 0.5);
@@ -8,3 +8,5 @@ function main() {
 let r = main();
 
 console.log(r);
+
+console.log(clamp(100, 5, 10));
