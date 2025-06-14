@@ -5,6 +5,10 @@ function main() {
   return result;
 }
 
+function secondToMain() {
+  return null;
+}
+
 let r = main();
 
 console.log(r);
