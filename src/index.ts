@@ -10,3 +10,4 @@ let r = main();
 console.log(r);
 
 console.log(clamp(100, 5, 10));
+console.log('extra line');
